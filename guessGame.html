@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../guessGame/guessGame.css">
+    <script src="guessGame.js" defer></script>
+</head>
+<body>
+    <div class="guess_game_main_div">
+      <div class="guess_game_div">
+          <p>Guess Game</p>
+          <button onclick="startButton()" class="start_button">Start Game</button>
+      </div>
+      <div class="input_button_message">
+      <div >
+        <label for="input_field"></label>
+      </div>
+          <p class="label_PTag"></p>
+          <input type="number" name="guess_input" id="input_field" value="0" disabled>
+          <button onclick="guessButton()" class="guess_button">Guess</button>
+          <p class="message">waiting for your guess...</p>
+      </div>
+        <section class="play_and_exit_section">
+            <button onclick="restart()" disabled>Restart</button>
+            <button onclick="quit()" disabled>Quit</button>
+        </section>
+    </div>
+</body>
+</html>

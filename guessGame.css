@@ -1,0 +1,62 @@
+.guess_game_main_div{
+    background-image: url("fernando-jorge-iyA6oTK6vig-unsplash.jpg");
+    display: grid;
+    justify-content: center;
+    border-style: outset;
+    /*padding: 70px;*/
+    /*margin: 20px;*/
+}
+.guess_game_div{
+    justify-content: center;
+    display: grid;
+    font-size: 30px;
+}
+.guess_game_div button{
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+label{
+    font-size: 20px;
+}
+.input_button_message input{
+    height: 50px;
+    width: 500px;
+    background-blend-mode: color;
+}
+
+#input_field{
+    box-shadow: 2px 10px 4px;
+}
+
+input:hover{
+    background: bisque;
+}
+.play_and_exit_section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+}
+.play_and_exit_section button{
+    height: 30px;
+    width: 40px;
+    background-color: powderblue;;
+}
+.guess_button{
+    height: 30px;
+    width: 100px;
+    background-color: bisque;
+    text-shadow: 3px 5px 2px blue;
+    font-size: 18px;
+}
+button:hover{
+    background: linear-gradient(10deg, blueviolet, powderblue, forestgreen);
+}
+input{
+    font-size: 20px;
+}
+
+.guess_game_div p{
+    text-shadow: 8px 6px 3px;
+}
